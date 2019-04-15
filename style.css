@@ -1,11 +1,11 @@
 .masonry { /* Masonry container */
   column-count: 2;
-  column-gap: 1em;
+  column-gap: .2em;
 }
 
 .item { /* Masonry bricks or child elements */
   display: inline-block;
-  margin: 0 0 1em;
+  margin: 0 0 .2em;
   width: 100%;
 }
 
@@ -222,20 +222,4 @@
 @media only screen and (min-width: 1200px) and (max-width: 1799px) {
 
 
-}
-
-/*
-*
-* Media Query XXL - Extra Large Desktop
-*
-*/
-
-@media only screen and (min-width: 1800px){
-
-}
-
-.clear:after {
-	content: "";
-	display: block;
-	clear: both;
 }
