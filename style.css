@@ -1,0 +1,234 @@
+
+.reviews {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.review-block {
+	width: 50%;
+	float: left;
+}
+
+.review-container {
+	margin: 5%;
+	box-shadow: 4px 4px 10px rgba(0,0,0,.1);
+}
+
+.review-container img {
+	width: 100%;
+	/*height: 500px;*/
+	/*object-fit: cover;*/
+}
+
+.review-text {
+	padding: 25px 40px 35px 40px;
+	position: relative;
+}
+
+.review-text img {
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: -50px;
+	right: 40px;
+}
+
+.review-container h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #0048B7;
+	margin: 0;
+	margin-bottom: 1px;
+	font-size: 1.5em;
+}
+
+.review-container h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #4E4E4E;
+	margin: 0;
+	margin-bottom: 12px;
+	font-size: 1em;
+}
+
+.review-container p {
+	font-family: 'Open Sans', sans-serif;
+	color: #878787;
+	margin: 0;
+	font-size: 1em;
+}
+
+/*
+*
+* Media Query S - Mobile
+*
+*/
+
+@media only screen and (max-width: 600px) {
+	.reviews {
+		width: 90%;
+	}
+
+	.review-block {
+		width: 100%;
+	}
+
+	.review-container {
+		margin:  13px 0;
+	}
+
+	.review-container img {
+		/*height: 300px;*/
+	}
+
+	.review-text {
+		padding: 15px 30px 25px 30px;
+		position: relative;
+	}
+
+	.review-text img {
+		height: 45px;
+		width: 45px;
+		position: absolute;
+		top: -35px;
+		right: 30px;
+	}
+
+	.review-container h2 {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		color: #0048B7;
+		margin: 0;
+		margin-bottom: 1px;
+		font-size: 1.1em;
+	}
+
+	.review-container h3 {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		color: #4E4E4E;
+		margin: 0;
+		margin-bottom: 12px;
+		font-size: .9em;
+	}
+
+	.review-container p {
+		font-family: 'Open Sans', sans-serif;
+		color: #878787;
+		margin: 0;
+		font-size: .9em;
+	}
+}
+
+/*
+*
+* Media Query M - Tablet
+*
+*/
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+	.reviews {
+		width: 90%;
+	}
+
+	.review-block {
+		width: 50%;
+		float: left;
+	}
+
+	.review-container {
+		margin:  10px;
+	}
+
+	.review-container img {
+		/*height: 300px;*/
+	}
+
+	.review-text {
+		padding: 15px 30px 25px 30px;
+		position: relative;
+	}
+
+	.review-text img {
+		height: 50px;
+		width: 50px;
+		position: absolute;
+		top: -40px;
+		right: 30px;
+	}
+
+	.review-container h2 {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		color: #0048B7;
+		margin: 0;
+		margin-bottom: 1px;
+		font-size: 1.2em;
+	}
+
+	.review-container h3 {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		color: #4E4E4E;
+		margin: 0;
+		margin-bottom: 12px;
+		font-size: .9em;
+	}
+
+	.review-container p {
+		font-family: 'Open Sans', sans-serif;
+		color: #878787;
+		margin: 0;
+		font-size: .9em;
+	}
+
+}
+
+/*
+*
+* Media Query L - Desktop
+*
+*/
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+	.reviews {
+		width: 85%;
+	}
+
+	.review-container img {
+		/*height: 400px;*/
+	}
+
+	.review-text img {
+		height: 55px;
+		width: 55px;
+	}
+
+}
+
+/*
+*
+* Media Query XL - Large Desktop
+*
+*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1799px) {
+
+
+}
+
+/*
+*
+* Media Query XXL - Extra Large Desktop
+*
+*/
+
+@media only screen and (min-width: 1800px){
+
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
